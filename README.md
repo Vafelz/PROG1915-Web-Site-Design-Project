@@ -1,2 +1,4 @@
-# prog1915-web-site-design-project
+# PROG915: WEB SITE DESIGN PROJECT
+CONESTOGA COLLEGE
 PROG1915: Web Site Design Project
+2021, Fall Term (Sept. - Dec.)
