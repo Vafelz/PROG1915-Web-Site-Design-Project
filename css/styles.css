@@ -1,13 +1,53 @@
+/*
+@font-face {
+    font-family: NexaBold;
+    src: url('../font/nexa_bold-webfont.woff2') format('woff2'),
+    	 url('../font/nexa_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: NexaLight;
+    src: url('../font/nexa_light-webfont.woff2') format('woff2'),
+    	 url('../font/nexa_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	background-size: cover;
+}
+*/
+
 * {
-	font-family: Tahoma, sans-serif;
+	font-family: nexa_light, Arial, sans-serif;
+}
+
+body {
+	background-attachment: fixed;
+	background-image: url(../img/background.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.navbar {
+	padding: 12px 24px;
+	opacity: 90%;
+}
+
+.navbar-brand {
+	width: 15%;
 }
 
 .navbar-brand img {
-	width: 40%;
+	width: 50%;
 }
 
-#wrapper {
-	border: 1px solid #000000;
-	margin: 2em;
-	padding: 1em;
+.nav-item {
+	font-size: 1.5em;
+	font-weight: 600;
+	margin: 0px 24px;
+	opacity: 100%;
 }
