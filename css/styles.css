@@ -1,0 +1,13 @@
+* {
+	font-family: Tahoma, sans-serif;
+}
+
+.navbar-brand img {
+	width: 40%;
+}
+
+#wrapper {
+	border: 1px solid #000000;
+	margin: 2em;
+	padding: 1em;
+}
