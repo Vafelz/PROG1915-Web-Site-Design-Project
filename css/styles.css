@@ -49,4 +49,42 @@ body {
 	font-size: 1.5em;
 	margin: 0px 24px;
 	opacity: 100%;
+<<<<<<< Updated upstream
 }
+=======
+}
+
+.menuimg{
+	display: flex;
+	justify-content: center;
+	padding-top: 5rem;
+}
+
+.menupic{
+	transition: transform .2s;
+	margin: 0 auto;
+}
+
+.menupic:hover {
+	transform: scale(1.1);
+}
+
+.homeContentContainer{
+	display: flex;
+	justify-content: center;
+	margin-top: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
+	flex-direction: column;
+	padding: 20px 60px 30px 40px;
+	border-radius: 6px;
+	background: rgba(13, 13, 13, 0.9)
+
+}
+.homeContentText{
+	display: flex;
+	justify-content: center;
+	color: white;
+	font-weight: bold
+}
+>>>>>>> Stashed changes
