@@ -57,13 +57,21 @@ nav ul {
 	width: 50%;
 }
 
+.about {
+  align-items: center;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2em;
+  width: 60%;
+}
+
 .content {
 	align-items: center;
-	background-color: #FFFFFF;
 	display: flex;
-	height: 60%;
 	justify-content: space-evenly;
-	width: 60%;
+	width: 120%;
 }
 
 .right-side {
@@ -75,19 +83,9 @@ nav ul {
 }
 
 #menu {
-	transform: scale(0.5);
+	width: 60%;
 }
 /**/
-.content .left-side::before{
-  content: '';
-  position: absolute;
-  height: 70%;
-  width: 2px;
-  right: -15px;
-  top: 50%;
-  transform: translateY(-50%);
-  background: #afafb6;
-}
 .content .left-side .details{
   margin: 14px;
   text-align: center;
